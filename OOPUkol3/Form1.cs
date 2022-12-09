@@ -27,6 +27,8 @@ namespace OOPUkol3
             auto = new Auto(textBox1.Text, (double)numericUpDown1.Value);
             button2.Visible = true;
             button1.Visible = false;
+            textBox1.Enabled=false;
+            numericUpDown1.Enabled=false;
         }
 
         private void button2_Click(object sender, EventArgs e)

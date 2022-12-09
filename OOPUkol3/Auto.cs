@@ -48,7 +48,7 @@ namespace OOPUkol3
         }
         public double CelkovaSpotreba()
         {
-            double vypocet = (double)ujetoCelkem/ (double)spotreba;
+            double vypocet = ((double)ujetoCelkem/100) * (double)spotreba;
             return Math.Round(vypocet, 3);
         }
         public override string ToString()
